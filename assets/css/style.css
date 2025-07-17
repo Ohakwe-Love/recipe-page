@@ -131,3 +131,46 @@ h2 {
 }
 
 /* nutrition end */
+
+
+@media (max-width: 1024px) {
+    .main-container{
+        padding: 20px;
+    }
+    .hero {
+        height: 60vh;
+    }
+
+    .hero img {
+        border-radius: 20px;
+    }
+
+    .main-container {
+        padding: 20px;
+    }
+
+    .simple h1 {
+        font-size: 30px;
+    }
+
+    .preparation-time {
+        padding: 20px;
+    }
+
+    .preparation-time h3 {
+        font-size: 18px;
+    }
+
+    .instructions ol li span {
+        margin-left: 0;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .nutrition table tr td {
+        padding-left: 20px;
+        /* background-color: red; */
+    }
+}
