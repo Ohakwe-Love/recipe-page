@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    color: hsl(30, 10%, 34%);
+}
+
+.main-container{
+    padding: 40px;
+}
+
+/* hero start */
+.hero {
+    width: 100%;
+    height: 90vh;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+/* hero end */
+
+/* simple start */
+.simple {
+    margin-top: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.simple h1 {
+    font-family: 'Young Serif', sans-serif;
+    font-size: 45px;
+    text-transform: capitalize;
+    color: hsl(24, 5%, 18%);
+    margin-bottom: 20px;
+}
+
+.preparation-time {
+    width: 100%;
+    padding: 30px 50px;
+    border-radius: 20px;
+    background-color: rgb(197, 0, 197, 0.1);
+    margin: 20px 0;
+}
+
+.preparation-time h3 {
+    color: hsl(332, 51%, 32%);
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+ul li {
+    line-height: 2;
+    color: hsl(332, 51%, 32%);
+}
+
+ul li span {
+    color: hsl(30, 10%, 34%);
+}
+
+h2 {
+    font-family: 'Young Serif', sans-serif;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 10px;
+}
+
+.ingredients {
+    padding-left: 30px;
+}
+/* simple end */
+
+/* instructions start */
+.instructions{
+    padding: 40px 0;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.instructions ol {
+    padding-left: 20px;
+}
+
+.instructions ol li {
+    line-height: 2;
+}
+
+.instructions ol li span {
+    font-weight: 600;
+    margin-left: 20px;
+}
+/* instructions end */
+
+/* nutrition start */
+.nutrition {
+    padding: 50px 0;
+}
+
+.nutrition p {
+    margin-bottom: 30px;
+}
+
+.nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition table tr {
+    height: 40px;
+    border-bottom: 1px solid hsl(30, 10%, 34%);
+}
+
+.nutrition table tr td {
+    padding-left: 40px;
+    /* background-color: red; */
+}
+
+.nutrition table tr .second-td {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+/* nutrition end */
